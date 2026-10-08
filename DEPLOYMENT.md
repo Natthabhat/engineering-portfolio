@@ -18,7 +18,7 @@ Stage any other files you changed. Git LFS uploads changed photos and videos aut
 ## Deploy on Ubuntu
 
 ```sh
-cd ~/apps/namon-portfolio
+cd ~/apps/namon-portfolio-git
 git pull --ff-only origin main
 git lfs pull
 docker compose up -d --build --wait
