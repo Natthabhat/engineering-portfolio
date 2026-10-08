@@ -1,6 +1,6 @@
 # Ubuntu Docker deployment
 
-The private GitHub repository is `Natthabhat/engineering-portfolio`. Images and videos use Git LFS. The Ubuntu checkout is `/home/natthabhat/apps/namon-portfolio`. Its ignored `.env` binds the site to `192.168.31.36:3300`.
+The private GitHub repository is `Natthabhat/engineering-portfolio`. Images and videos use Git LFS. The Ubuntu checkout is `/home/natthabhat/apps/namon-portfolio-git`. Its ignored `.env` binds the site to `192.168.31.36:3300`.
 
 ## Publish from Windows
 
