@@ -66,11 +66,6 @@ export const campsMedia: {src:string;type:"image"|"video";alt:string;poster?:str
     "alt": "Engineering camp activity photo 12"
   },
   {
-    "src": "/images/camps/activity-13.jpg",
-    "type": "image",
-    "alt": "Engineering camp activity photo 13"
-  },
-  {
     "src": "/images/camps/activity-14.jpg",
     "type": "image",
     "alt": "Engineering camp activity photo 14"
@@ -79,11 +74,6 @@ export const campsMedia: {src:string;type:"image"|"video";alt:string;poster?:str
     "src": "/images/camps/activity-15.jpeg",
     "type": "image",
     "alt": "Engineering camp activity photo 15"
-  },
-  {
-    "src": "/images/camps/activity-16.jpg",
-    "type": "image",
-    "alt": "Engineering camp activity photo 16"
   },
   {
     "src": "/images/camps/activity-17.jpg",
