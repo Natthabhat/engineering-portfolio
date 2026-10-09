@@ -63,7 +63,7 @@ export const resumeOverview = {
   "education": [
     "2018 – 2024 | Horwang School, Gifted Program, GPAX: 3.88 (last 3 years)",
     "Current     | Chulalongkorn University, Mechanical Engineering, third year",
-    "Score | CU-TEP : 92 / 120, CU-ATS : 1100 / 1600, TU-GET : 790 / 1000, SAT : 1180 / 1600"
+    "Score | CU-TEP : 92 / 120, CU-ATS : 1100 / 1600, TU-GET : 790 / 1000"
   ],
   "skills": [
     "Manufacturing: CAD, FDM and SLA 3D printing, CNC, laser cutting, material optimization",
