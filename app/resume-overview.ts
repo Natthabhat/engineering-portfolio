@@ -73,7 +73,9 @@ export const resumeOverview = {
       "Fluid Mechanics",
       "Mechanics of Materials",
       "Heat Transfer",
-      "Design Elements"
+      "Design Elements",
+      "Mech Machinery",
+      "Computer Aided ME Design"
     ]
   },
   "skills": [

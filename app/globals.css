@@ -35,8 +35,8 @@
 .home-summary{display:grid;grid-template-columns:155px minmax(0,1fr);gap:22px;padding:28px 0;border-bottom:1px solid var(--line)}
 .home-summary p{font-size:16px;line-height:1.9;color:#48535d;max-width:78ch}
 .education-summary .education-degree{margin-top:0}.education-period{color:var(--muted)}
-.education-summary .education-coursework{font-size:14px;line-height:1.8;margin-top:13px;color:#48535d}
-.education-coursework>span{display:block;font-size:12px;font-weight:600;color:var(--ink);margin-bottom:3px}
+.education-summary .education-coursework{font-size:15px;line-height:1.8;margin-top:13px;color:#48535d}
+.education-coursework>span{display:block;font-size:15px;font-weight:600;color:var(--ink);margin-bottom:3px}
 @media(max-width:1100px){.home-summary{grid-template-columns:125px minmax(0,1fr)}}
 @media(max-width:700px){.resume-nav{flex-wrap:wrap;justify-content:flex-start;column-gap:22px;row-gap:12px}.home-summary{grid-template-columns:1fr;gap:14px;padding:23px 0}.home-summary p{font-size:15px;line-height:1.85}}
 
