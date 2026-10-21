@@ -1,5 +1,6 @@
 export const profile = {
   name: "Natthabhat Nilsuwan", nickname: "Namon",
+  github: "https://github.com/Natthabhat",
   email: "6730154821@student.chula.ac.th",
   availability: "May–August 2027",
 };

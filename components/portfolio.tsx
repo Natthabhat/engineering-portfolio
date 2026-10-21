@@ -1,7 +1,7 @@
 import Link from "next/link";
 import ResumeText from "@/components/resume-text";
 import Image from "next/image";
-import { ArrowUpRight, Download, Mail, Phone } from "lucide-react";
+import { ArrowUpRight, Download, Code, Mail, Phone } from "lucide-react";
 import { profile } from "@/app/data";
 import { resumeOverview } from "@/app/resume-overview";
 
@@ -11,7 +11,7 @@ export default function Portfolio() {
   <header className="resume-nav"><a href="#summary">Summary</a><a href="#experience">Experience</a><a href="#skills">Technical skills</a><a href="/resume.pdf" download><Download size={15}/> Download CV</a></header>
   <main id="main" className="resume">
    <section className="resume-intro">
-    <div className="intro-copy"><p className="eyebrow">ENGINEERING PORTFOLIO</p><h1>Natthabhat Nilsuwan<span>(Namon)</span></h1><p className="profile-line">{resumeOverview.headline}</p><a className="email" href={`mailto:${profile.email}`}><Mail size={16}/>{profile.email}</a><a className="email phone" href="tel:+66917934343"><Phone size={16}/>Tel. 091-793-4343</a></div>
+    <div className="intro-copy"><p className="eyebrow">ENGINEERING PORTFOLIO</p><h1>Natthabhat Nilsuwan<span>(Namon)</span></h1><p className="profile-line">{resumeOverview.headline}</p><a className="email" href={`mailto:${profile.email}`}><Mail size={16}/>{profile.email}</a><a className="email phone" href="tel:+66917934343"><Phone size={16}/>Tel. 091-793-4343</a><a className="email phone" href={profile.github} target="_blank" rel="noopener noreferrer"><Code size={16}/>github.com/Natthabhat</a></div>
     <div className="home-photos"><div className="formal-photo"><Image src="/images/portrait-formal.jpg" alt="Natthabhat Nilsuwan in university uniform" fill sizes="(max-width: 700px) 40vw, 130px" preload/></div><div className="casual-photo"><Image src="/images/portrait-painting.jpg" alt="Natthabhat painting at an outdoor table" fill sizes="(max-width: 700px) 44vw, 158px" loading="eager"/></div></div>
    </section>
    <section id="summary" className="home-summary" aria-labelledby="summary-title"><h2 id="summary-title">Summary</h2><p>{resumeOverview.summary}</p></section>
