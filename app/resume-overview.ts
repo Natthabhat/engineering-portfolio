@@ -65,6 +65,7 @@ export const resumeOverview = {
     "institution": "Chulalongkorn University",
     "period": "2024–2028 (expected)",
     "stage": "Third-year student",
+    "school": {"institution": "Horwang School", "period": "2018–2024", "program": "Gifted Class", "gpax": "3.88"},
     "coursework": [
       "Statics",
       "Dynamics",
