@@ -31,6 +31,7 @@ export const deltaExperience = {
    "Differentiated the constraints to get the Jacobian for speed and force. Holding the device still against gravity needs only about 10.7 mN·m per motor.",
    "Grübler–Kutzbach analysis with 11 links and 15 joints gives M = 9: 6 idle rod spins plus 3 useful hand translations, so three motors fully actuate the device.",
   ], images: [
+   img("kinematic_diagram.png", "Kinematic diagram showing the base, three revolute shoulders, upper arms, six rods with spherical joints, and the hand", "Kinematic diagram: 11 links, 3 revolute shoulders (J1–J3), and 12 spherical rod ends (J4–J15)."),
    img("delta_symbolic_anim_q.png", "Plots of shoulder angle, speed, and acceleration along the circle path", "Shoulder angle, speed, and acceleration along the circle from the symbolic solution."),
   ]},
   {heading: "Simulation & verification", bullets: [
@@ -58,6 +59,7 @@ export const deltaMedia: {src: string; type: "image" | "video"; alt: string; pos
  {src: "/images/delta/final_unit_demo.mp4", type: "video", poster: "/images/delta/final_unit_demo_poster.jpg", alt: "Moving the delta haptic device handle by hand"},
  ...[1, 2, 3, 4, 5, 6, 7, 8].map(n => ({src: `/images/delta/final_unit_${n}.jpg`, type: "image" as const, alt: `Final delta haptic device, photo ${n}`})),
  ...[1, 2, 3].map(n => ({src: `/images/delta/prototype_${n}.jpg`, type: "image" as const, alt: `First prototype, photo ${n}`})),
+ {src: "/images/delta/kinematic_diagram.png", type: "image", alt: "Kinematic diagram of the delta mechanism"},
  {src: "/images/delta/delta_symbolic_anim_frame.png", type: "image", alt: "Symbolic circle-motion animation frame"},
  {src: "/images/delta/delta_symbolic_anim_q.png", type: "image", alt: "Shoulder angle, speed, and acceleration plots"},
 ];
