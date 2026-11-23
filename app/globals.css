@@ -41,3 +41,5 @@
 @media(max-width:700px){.resume-nav{flex-wrap:wrap;justify-content:flex-start;column-gap:22px;row-gap:12px}.home-summary{grid-template-columns:1fr;gap:14px;padding:23px 0}.home-summary p{font-size:15px;line-height:1.85}}
 
 .education-school{margin-top:20px;padding-top:16px;border-top:1px solid var(--line)}
+
+.section-video{cursor:default}.section-video video{display:block;width:100%;height:100%;object-fit:contain;background:#fff}

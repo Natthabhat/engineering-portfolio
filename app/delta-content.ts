@@ -40,6 +40,7 @@ export const deltaExperience = {
    "Animated the circle motion in a MATLAB live script and checked it against the numeric inverse kinematics, rope end-stops, and rod-end tilt.",
    "Cross-checked forward kinematics, the Jacobian, and gravity compensation between the symbolic math and the Simscape model.",
   ], images: [
+   {...img("simscape_circle_poster.jpg", "Simscape Multibody model of the delta haptic device moving its hand round a circle", "Simscape Multibody model built from the CAD, tracing the circle (play the video)."), video: "/images/delta/simscape_circle.mp4"},
    img("delta_symbolic_anim_frame.png", "3D plot of the delta mechanism with the circle path", "Symbolic animation: upper arms (red), rods (green), and the hand tracing the circle."),
   ]},
   {heading: "Prototype to final unit", bullets: [
@@ -57,6 +58,7 @@ export const deltaExperience = {
 
 export const deltaMedia: {src: string; type: "image" | "video"; alt: string; poster?: string}[] = [
  {src: "/images/delta/final_unit_demo.mp4", type: "video", poster: "/images/delta/final_unit_demo_poster.jpg", alt: "Moving the delta haptic device handle by hand"},
+ {src: "/images/delta/simscape_circle.mp4", type: "video", poster: "/images/delta/simscape_circle_poster.jpg", alt: "Simscape Multibody simulation of the circle motion"},
  ...[1, 2, 3, 4, 5, 6, 7, 8].map(n => ({src: `/images/delta/final_unit_${n}.jpg`, type: "image" as const, alt: `Final delta haptic device, photo ${n}`})),
  ...[1, 2, 3].map(n => ({src: `/images/delta/prototype_${n}.jpg`, type: "image" as const, alt: `First prototype, photo ${n}`})),
  {src: "/images/delta/kinematic_diagram.png", type: "image", alt: "Kinematic diagram of the delta mechanism"},

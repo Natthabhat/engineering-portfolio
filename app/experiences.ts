@@ -8,7 +8,7 @@ import { resumeDetails, type ResumeBlock } from "./resume-details";
 import { deltaExperience, deltaMedia } from "./delta-content";
 export type Experience = {
  id: string; title: string; detailTitle?: string; role: string; period: string; summary: string[];
- introduction: string; introductionParagraphs?: string[]; sectionLabel?: string; sections: { heading: string; bullets: string[]; blocks?: ResumeBlock[]; images?: {src:string;alt:string;caption:string}[] }[];
+ introduction: string; introductionParagraphs?: string[]; sectionLabel?: string; sections: { heading: string; bullets: string[]; blocks?: ResumeBlock[]; images?: {src:string;alt:string;caption:string;video?:string}[] }[];
  tools: string[]; images: {src: string; alt: string; caption: string}[];
  link?: {href: string; label: string}; media?: {src:string;type:"image"|"video";alt:string;poster?:string}[];
 };
