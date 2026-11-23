@@ -23,6 +23,7 @@ This is my personal engineering portfolio and online CV. The home page introduce
 | [CU Formula Student](https://profile.natthabhat.com/experience/formula) | Vehicle wiring, sensors, performance testing, and contributions to electrical and EV systems. |
 | [Smart Home & IoT](https://profile.natthabhat.com/experience/iot) | Connected devices, Home Assistant, networking, Linux servers, Docker, and self-hosted services. |
 | [Programming & Hardware Projects](https://profile.natthabhat.com/experience/hardware) | Projects using Arduino, ESP32, Raspberry Pi, wireless communication, sensors, and custom interfaces. |
+| [Delta Haptic Device](https://profile.natthabhat.com/experience/delta) | A Mechanics of Machinery team project: a 3-DOF delta haptic device with rope capstans, symbolic kinematics, and a Simscape Multibody model. |
 | [CU Engineering Camps](https://profile.natthabhat.com/experience/camps) | Planning and on-site coordination across four engineering camps involving more than 800 participants. |
 
 ## Education

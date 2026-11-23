@@ -51,6 +51,15 @@ export const resumeOverview = {
       ]
     },
     {
+      "id": "delta",
+      "title": "Delta Haptic Device (Mechanics of Machinery Team Project)",
+      "summary": [
+        "Designed and built a 3-DOF delta haptic device driven by three NEMA17 motors through rope capstans, with 3D-printed PETG parts.",
+        "Derived the inverse kinematics, Jacobian, and dynamics symbolically in MATLAB, and verified the DOF with Grübler–Kutzbach.",
+        "Built a Simscape Multibody model from the CAD and simulated the largest circle the hand can trace."
+      ]
+    },
+    {
       "id": "camps",
       "title": "CU Engineering Camps",
       "summary": [
